@@ -21,4 +21,12 @@ An educational agent that helps create personalized study plans. Capabilities:
 2. Description of what you already know about the topic
 3. Your learning goals or desired outcomes
 
-The agent will analyze the resources, identify gaps in your knowledge, and produce a tailored study plan with notes.
+## Agent Behavior Preferences
+
+### Notifications
+When an agent finishes a task and is waiting for user input, it should notify the user using the appropriate OS notification tool:
+- **Linux:** Use `notify-send` (e.g., `notify-send "OpenCode" "Task completed. Waiting for your input."`)
+- **macOS:** Use `osascript` (e.g., `osascript -e 'display notification "Task completed. Waiting for your input." with title "OpenCode"'`)
+- **Windows:** Use PowerShell (e.g., `powershell -Command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Task completed. Waiting for your input.', 'OpenCode')"`)
+
+Always prefer native OS notification tools over sound alerts or terminal bells.
