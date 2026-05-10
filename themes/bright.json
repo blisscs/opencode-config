@@ -1,0 +1,29 @@
+{
+  "name": "bright",
+  "description": "A high-contrast light theme with warm accents",
+  "type": "light",
+  "colors": {
+    "background": "#FFFFFF",
+    "foreground": "#1A1A1A",
+    "primary": "#2563EB",
+    "secondary": "#7C3AED",
+    "accent": "#EA580C",
+    "success": "#16A34A",
+    "warning": "#CA8A04",
+    "error": "#DC2626",
+    "muted": "#6B7280",
+    "border": "#E5E7EB",
+    "surface": "#F9FAFB",
+    "highlight": "#FEF3C7"
+  },
+  "syntax": {
+    "comment": "#6B7280",
+    "keyword": "#7C3AED",
+    "string": "#16A34A",
+    "number": "#EA580C",
+    "function": "#2563EB",
+    "variable": "#1A1A1A",
+    "type": "#0891B2",
+    "operator": "#DC2626"
+  }
+}
