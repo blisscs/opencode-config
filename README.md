@@ -4,10 +4,10 @@ Personal opencode configuration repository.
 
 ## Installation
 
-Symlink the `.opencode` folder from your home directory to this repository:
+Symlink the `.config/opencode` folder from your home directory to this repository:
 
 ```bash
-ln -s "$PWD" ~/.opencode
+ln -s "$PWD" ~/.config/opencode
 ```
 
 This allows you to version control your opencode configuration while keeping it in the standard location expected by the tool.
