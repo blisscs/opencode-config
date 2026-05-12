@@ -21,6 +21,24 @@ An educational agent that helps create personalized study plans. Capabilities:
 2. Description of what you already know about the topic
 3. Your learning goals or desired outcomes
 
+### Expert Investment
+
+**File:** `agents/expert-investment.md`
+
+An investment expert agent that helps analyze markets, interpret financial news, and develop investment strategies. Capabilities:
+
+- Analyzes global market trends and financial news
+- Evaluates investment opportunities and company fundamentals
+- Develops portfolio strategies based on user goals and risk tolerance
+- Assesses and manages investment risks
+- Integrates macroeconomic context into investment decisions
+
+**Usage:** Invoke the expert-investment agent when you need investment analysis. Provide:
+1. Financial news articles or market data to analyze
+2. Your investment goals and risk tolerance
+3. Current portfolio holdings (if seeking portfolio advice)
+4. Specific companies, sectors, or assets to evaluate
+
 ## Agent Behavior Preferences
 
 ### Notifications
