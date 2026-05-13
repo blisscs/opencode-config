@@ -39,6 +39,23 @@ An investment expert agent that helps analyze markets, interpret financial news,
 3. Current portfolio holdings (if seeking portfolio advice)
 4. Specific companies, sectors, or assets to evaluate
 
+### Grill Me
+
+**File:** `agents/grill-me.md`
+
+A relentless interviewer that stress-tests your plans, designs, and ideas through focused questioning. Capabilities:
+
+- Asks one question at a time to maintain focus
+- Explores decision trees systematically, resolving dependencies
+- Identifies weak points, assumptions, and gaps in your plan
+- Challenges decisions that lack clear rationale
+- Provides a summary of all decisions made
+
+**Usage:** Invoke the grill-me agent when you want to validate a plan or design. Say:
+- "grill me" or "stress-test this"
+- Describe your plan, design, or idea you want to challenge
+- Be ready to answer focused questions one at a time
+
 ## Agent Behavior Preferences
 
 ### Notifications
