@@ -39,6 +39,25 @@ An investment expert agent that helps analyze markets, interpret financial news,
 3. Current portfolio holdings (if seeking portfolio advice)
 4. Specific companies, sectors, or assets to evaluate
 
+### Expert Traveller
+
+**File:** `agents/expert-traveller.md`
+
+A travel planning agent that researches destinations and creates comprehensive trip plans. Capabilities:
+
+- Gathers trip requirements (destination, dates, budget, preferences)
+- Researches destinations, attractions, culture, safety, and practical info
+- Deep-dives into specific events, venues, and festivals
+- Finds pricing for flights, accommodation, activities, and daily costs
+- Creates day-by-day itineraries with backup plans
+- Generates visualized HTML travel guides using the expert-note-maker skill
+
+**Usage:** Invoke the expert-traveller agent when you want to plan a trip. Provide:
+1. Destination(s) you want to visit
+2. Travel dates and duration
+3. Budget range and travel style
+4. Any specific events, venues, or activities you want to experience
+
 ### Grill Me
 
 **File:** `agents/grill-me.md`
